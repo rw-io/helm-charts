@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  tenzu-back:
+  - apiVersion: v2
+    created: "2025-11-24T10:03:12.49391758-05:00"
+    description: A Helm chart to run the API webservices backend and task queue worker
+      of Tenzu
+    digest: 050f8aacefa2814a1d46783cb6055cdf764512ece26b9c739390cff924ce0926
+    home: https://tenzu.net/docs
+    name: tenzu-back
+    type: application
+    urls:
+    - https://github.com/rw-io/helm-charts/tenzu-back-1.0.1.tgz
+    version: 1.0.1
+  tenzu-front:
+  - apiVersion: v2
+    created: "2025-11-24T10:03:12.494305439-05:00"
+    description: A Helm chart to run the SPA frontend of Tenzu
+    digest: 25dbd2b83a08b0bcd4453386ec5fb996c18394d595372016e4091f93c875d157
+    home: https://tenzu.net/docs
+    name: tenzu-front
+    type: application
+    urls:
+    - https://github.com/rw-io/helm-charts/tenzu-front-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-11-24T10:03:12.493006161-05:00"
