@@ -171,7 +171,7 @@ persistentVolumeClaim:
         # -- Storage size for the PersistentVolumeClaim used by the volume for media files,
         # change the capacity to what you need
         storage: 10Gi
-      storageClass: ""
+    storageClassName: ""
 
 postgresql:
   # -- To configure the postgresql connexion you can use an existing secret, direct values or a mix of both
