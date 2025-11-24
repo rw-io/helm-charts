@@ -136,7 +136,7 @@ livenessProbe:
     port: 8000
 # -- readinessProbe for the container of the backend service
 # see: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
-readinessProbe: 
+readinessProbe:
   httpGet:
     path: /api/v1/healthcheck
     port: 8000
@@ -171,6 +171,7 @@ persistentVolumeClaim:
         # -- Storage size for the PersistentVolumeClaim used by the volume for media files,
         # change the capacity to what you need
         storage: 10Gi
+      storageClass: ""
 
 postgresql:
   # -- To configure the postgresql connexion you can use an existing secret, direct values or a mix of both
